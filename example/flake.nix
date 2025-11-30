@@ -16,12 +16,19 @@
     system = "x86_64-linux";
     pkgs = import nixpkgs {
       inherit system;
-      overlays = [(import neon.overlays.default)];
+      overlays = [neon.overlays.default];
     };
   in {
+    packages = {
+      ${system} = {
+        default = pkgs.neon;
+      };
+    };
     devShells = {
-      ${system} = pkgs.mkShell {
-        buildInputs = [neon.packages.${system}.neon];
+      ${system} = {
+        default = pkgs.mkShell {
+          buildInputs = [neon.packages.${system}.neon];
+        };
       };
     };
   };
