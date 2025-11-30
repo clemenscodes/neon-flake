@@ -26,6 +26,12 @@ This repository provides:
 
 ---
 
+## Instant Setup (with flakes enabled)
+
+```nix
+nix shell github:clemenscodes/neon-flake
+```
+
 ## Usage (flakes)
 
 Add this repository as a flake input:
