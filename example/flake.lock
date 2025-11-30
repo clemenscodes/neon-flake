@@ -64,11 +64,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1764510099,
-        "narHash": "sha256-zbnDcuyZ9R/mvvYPegGWkXxf9qFMRYHrjJi41MByYa8=",
+        "lastModified": 1764510854,
+        "narHash": "sha256-gmk/etoK+j6mDPSy0WFLuUZs91ycKSLAjRAcwrNrs6w=",
         "owner": "clemenscodes",
         "repo": "neon-flake",
-        "rev": "7e217a4e73b95a6b06bb27c59adbbd8017b054e4",
+        "rev": "3b0998e1c8fd95127f95a6333cc6bb2f5d59349d",
         "type": "github"
       },
       "original": {
