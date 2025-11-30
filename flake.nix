@@ -65,7 +65,7 @@
         packages = apps;
 
         devShells = {
-          ${system} = pkgs.mkShell {
+          default = pkgs.mkShell {
             buildInputs = with pkgs; [
               neon
             ];
